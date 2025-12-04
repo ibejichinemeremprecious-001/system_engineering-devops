@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 BEST="School" && echo  $BEST
-=======
-BEST="School" | echo  $BEST
->>>>>>> 25e1b0caec8526868d1e3a7f1789155dc56daba8
