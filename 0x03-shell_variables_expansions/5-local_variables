@@ -1,2 +1,2 @@
 #!/bin/bash
-env | declare -F | declare -p | grep "declare --"
+env | declare -F | grep "declare --"
