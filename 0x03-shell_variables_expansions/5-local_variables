@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 env | declare -F | declare -p | grep "declare --"
+=======
+declare -F | declare -p
+>>>>>>> a784501fa9f8ede35c105d8d1a88f02d1e3bbee6
