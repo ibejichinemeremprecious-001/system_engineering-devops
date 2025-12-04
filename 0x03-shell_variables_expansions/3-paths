@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-!#/bin/bash
-=======
 #!/bin/bash
->>>>>>> 95b333f200de4fa10477dcdfcbaa22430af7a541
-echo $PATH | wc -l
+echo $PATH | tr ':' '\n' | wc -l
