@@ -1,2 +1,2 @@
 #!/bin/bash
-env; compgen -v; declare -F
+declare
