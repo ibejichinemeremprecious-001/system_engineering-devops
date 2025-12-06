@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-export TRUEKNOWLEDGE="1209" $TRUEKNOWLEDGE echo $((128 + $TRUEKNOWLEDGE)) | cat -e
-=======
 export TRUEKNOWLEDGE="1209" $TRUEKNOWLEDGE | echo $((128 + $TRUEKNOWLEDGE))
->>>>>>> 4b499f569eec6adf985ddfab0248084b95a3d220
