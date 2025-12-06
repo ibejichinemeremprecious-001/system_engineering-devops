@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #This is a while loop command 
 BEST=1 
 while [ $BEST -le 10 ];
