@@ -1,2 +1,2 @@
 #!/bin/bash
-POWER=12 DIVIDE=6 bash -c 'echo $((POWER / DIVIDE))' echo $POWER 
+POWER=12 DIVIDE=6 bash -c 'echo $((POWER / DIVIDE))'
