@@ -1,0 +1,9 @@
+#!/bin/bash
+#This is a while loop command 
+BEST=1 
+while [ $BEST -le 10 ];
+do 
+
+echo "Best School"
+BEST=$((BEST + 1))
+done
