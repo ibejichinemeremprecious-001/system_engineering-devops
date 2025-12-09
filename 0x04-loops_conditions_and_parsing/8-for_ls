@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Combining for loop with string and file manipulation.
-for file in system_engineering-devops/0x04-loops_conditions_and_parsing/*; do 
-ls -la "$file"
+for file in *; do 
+echo "$ (file#*-)"
 
 done
