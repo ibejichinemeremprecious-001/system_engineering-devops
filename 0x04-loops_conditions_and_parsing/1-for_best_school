@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This is a for loop command
-for  in {1..10};  do 
+for i in {1..10};  do 
 
-echo "Best School" $Best
+echo "$i:Best School" 
 
 done
