@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 #Display different messages based on specific loop iterations.
 BEST=1
 while [ $BEST -le 10 ]; do 
