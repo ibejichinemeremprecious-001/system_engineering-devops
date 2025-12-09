@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Combining for loop with string and file manipulation.
-for file in *; do 
-echo "$(file#*-)"
+for file in  *; do 
+echo "${file#*-}"
 
 done
