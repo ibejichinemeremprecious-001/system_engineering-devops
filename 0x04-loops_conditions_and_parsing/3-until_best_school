@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Doing it again
-BEST=1
-until [ $BEST -le 10 ];
+BEST=0
+until [ $BEST -eq 10 ];
 do 
 echo "Best School"
 BEST=$((BEST + 1))
