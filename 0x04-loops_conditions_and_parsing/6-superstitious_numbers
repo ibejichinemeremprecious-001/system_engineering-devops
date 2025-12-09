@@ -2,18 +2,26 @@
 #Write a Bash script that displays numbers from 1 to 20. For specific iterations, it should display additional “bad luck” 
 MESSAGE=1
 while [ $MESSAGE -le 20 ]; do
-    if [ $MESSAGE -eq 4 ]; then
-        echo "$MESSAGE"
+case $MESSAGE in
+
+4)
+	echo "$MESSAGE"
         echo "bad luck from China"
-    elif [ $MESSAGE -eq 9 ]; then
-        echo "$MESSAGE"
+	;;
+
+9)
+	echo "$MESSAGE"
         echo "bad luck from Japan"
-    elif [ $MESSAGE -eq 17 ]; then
-        echo "$MESSAGE"
+	;;
+
+17)
+ 	echo "$MESSAGE"
         echo "bad luck from Italy"
-    else
-        echo "$MESSAGE"
-    fi
+	;;
+*)
+	echo "$MESSAGE"
+   
+esac
     MESSAGE=$((MESSAGE + 1))
 done
 
