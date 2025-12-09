@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#This is another loop where a message (Hi) will be inputed immediately afterthe 9th line of the loop.
+BEST=0
+while [ $BEST -le 10 ]; do 
+      echo "Best School"
+if [ $BEST -eq 9 ]; then
+echo "Hi"
+
+fi
+BEST=$((BEST + 1))
+done
