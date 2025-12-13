@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #A Bash script that displays only the lines containing the word bash
 #shellcheck disable=SC2009 
-ps aux | grep bash
+ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest | grep bash
 echo"" 
 
