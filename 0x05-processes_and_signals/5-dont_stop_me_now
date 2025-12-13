@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 #A bash script that terminates a processes
-if [ -n "1909" ]; then
-	kill 1909
+PID=$(pgrep -f 4-to_infinity_and_beyond)
+
+if [ -n "PID" ]; then
+	kill "$PID"
+	echo "Process have been terminated"
 else 
 	echo "The process not found"
 fi
