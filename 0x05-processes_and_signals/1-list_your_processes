@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #A Bash script that displays a list of currently running processes. 
-ps aux | sed 's|bash -c|bin/bash|g' 
+ps -aux 
 echo ""
