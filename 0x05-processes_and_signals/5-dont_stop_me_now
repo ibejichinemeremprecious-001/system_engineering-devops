@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 #A bash script that terminates a processes
-kill 1909
+if [ -n "1909" ]; then
+	kill 1909
+else 
+	echo "The process not found"
