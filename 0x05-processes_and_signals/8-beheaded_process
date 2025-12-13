@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 # A Bash script that kills the 7-highlander process using SIGKILL
 
-PID=$(pgrep -f 7-highlander)
+ps aux | grep 7-highlander | grep -v grep | awk '{print $2}' | xargs kill -9
 
-if [ -n "$PID" ]; then
-    kill -9 "$PID"
-fi
 
