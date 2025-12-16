@@ -18,6 +18,8 @@ case $MESSAGE in
  	echo "$MESSAGE"
         echo "bad luck from Italy"
 	;;
+*)
+        echo "$MESSAGE"
    
 esac
     MESSAGE=$((MESSAGE + 1))
