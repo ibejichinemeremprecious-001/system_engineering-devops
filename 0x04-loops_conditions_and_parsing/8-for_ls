@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 #Combining for loop with string and file manipulation.
-<<<<<<< HEAD
+
 for file in system_engineering-devops/0x04-loops_conditions_and_parsing; do 
 ls -la "$file"
-=======
+
 for file in  *; do 
 echo "${file#*-}"
->>>>>>> 5ccd5ad26c5d4cf36e4b705bcf729ae9cf406b22
 
 done
